@@ -1,21 +1,43 @@
 {
     "timeline":
     {
-        "headline":"The Kitchen Sink, Évier de la Cuisine ",
+        "headline":"Breve historia de Las Traperas",
         "type":"default",
-		"startDate":"1888",
-		"text":"An example of the different kinds of stuff you can do with <span class='brand'>Timeline<span class='brand-js'>JS</span></span>",
+		"startDate":"2010",
+		"text":"Como surgió el proyecto y que hemos aprendido.",
 		"asset":
         {
-            "media":"http://2.bp.blogspot.com/-dxJbW0CG8Zs/TmkoMA5-cPI/AAAAAAAAAqw/fQpsz9GpFdo/s1600/voyage-dans-la-lune-1902-02-g.jpg",
+            "media":"http://www.lastraperas.com",
             "credit":"",
             "caption":""
         },
         "date": [
 			{
-                "startDate":"1980,1,18",
-                "headline":"Google Map",
-                "text":"",
+                "startDate":"2010,7",
+                "headline":"Primer Evento",
+                "text":"<li><strong>personas esperadas: 120 personas</strong><li>&nbsp;</li><li><strong>asistentes: 500 personas</strong></li><li>&nbsp;</li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
+                "asset":
+                {
+                    "media":"",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2010,12",
+                "headline":"¿Cómo manejamos la demanda?",
+                "text":"En nuestros intentos de no perder la demanda, desarrollamos un sistema, para que las proveedoras saquen sus citas. El servidor colapsa a las pocas horas de publicar el link (CIENTOS de conexiones simultaneas)",
+                "asset":
+                {
+                    "media":"http://entusdias.com/wp-content/uploads/2011/03/error-500-1299267129.jpg",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2011,2",
+                "headline":"Segundo Evento",
+                "text":"<li><strong>personas esperadas: 1500 personas</strong><li>&nbsp;</li><li><strong>asistentes: 3000 personas</strong></li><li>&nbsp;</li><li><strong>prendas recolectadas: 4000</strong></li><li>&nbsp;</li></ul>",
                 "asset":
                 {
                     "media":"http://maps.google.com/maps?q=chicago&hl=en&sll=41.874961,-87.619054&sspn=0.159263,0.351906&t=t&hnear=Chicago,+Cook,+Illinois&z=11",
@@ -24,134 +46,57 @@
                 }
             },
 			{
-                "startDate":"1979,1,18",
-                "headline":"Google Map",
-                "text":"Just add the link to the map in the media field.",
+                "startDate":"2011,5",
+                "headline":"Mariano se integra al equipo",
+                "text":"Ante la gran demanda, se busca crear un sistema centralizado para los procesos de inventariado y venta.",
                 "asset":
                 {
-                    "media":"http://maps.google.com/maps?q=New+York,+NY&hl=en&ll=40.721242,-73.987427&spn=0.164187,0.365295&sll=40.722673,-73.993263&sspn=0.082092,0.182648&oq=New+Y&hnear=New+York&t=m&z=11",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-
-			{
-                "startDate":"1899",
-                "headline":"Le portrait mystérieux ",
-                "text":"To add a YouTube video, just add a link to it in the media field. No embedding necessary. http://youtu.be/lIvftGgps24",
-                "asset":
-                {
-                    "media":"http://youtu.be/lIvftGgps24",
-                    "credit":"Georges Méliès",
-                    "caption":"Le portrait mystérieux"
-                }
-            },
-			{
-                "startDate":"1902",
-                "headline":"Wikipedia",
-                "text":"Wikipedia is now supported. Just add a link to the <a href='http://en.wikipedia.org/wiki/A_Trip_to_the_Moon' target='_blank'>Wikipedia entry</a>.",
-                "asset":
-                {
-                    "media":"http://en.wikipedia.org/wiki/A_Trip_to_the_Moon",
+                    "media":"",
                     "credit":"",
                     "caption":""
                 }
             },
 			{
-                "startDate":"1905",
-                "headline":"Le juif errant",
-                "text":"",
+                "startDate":"2011,6",
+                "headline":"Sistematización de la tienda",
+                "text":"Establecimos una metodología de inventariado aplicando un sistema de códigos de barras que nos solucionó la vida... por un tiempo.",
                 "asset":
                 {
-                    "media":"http://youtu.be/SvmM_YSnWX8",
-                    "credit":"Georges Méliès",
-                    "caption":"Le juif errant"
-                }
-            },
-			{
-                "startDate":"1950,2,7",
-                "headline":"Blockquote",
-                "text":"This is an example of a blockquote.<br/>&lt;blockquote&gt;&ldquo;Just use html blockquotes in the media field.&rdquo;&lt;/blockquote&gt;",
-                "asset":
-                {
-                    "media":"<blockquote>“You have brains in your head. You have feet in your shoes. You can steer yourself in any direction you choose. You're on your own, and you know what you know. And you are the guy who'll decide where to go.”</blockquote>",
-                    "credit":"Dr. Seuss",
-                    "caption":""
-                }
-            },
-			{
-                "startDate":"1960,2,7",
-                "headline":"Website",
-                "text":"This is an example of a website. Just paste a link to the site in the media field.",
-                "asset":
-                {
-                    "media":"http://www.w3schools.com/",
-                    "credit":"w3schools",
-                    "caption":"http://w3schools.com"
-                }
-            },
-			{
-                "startDate":"1985,2,7",
-                "headline":"Flickr",
-                "text":"",
-                "asset":
-                {
-                    "media":"http://www.flickr.com/photos/zachwise/7074630607/in/photostream/",
-                    "credit":"Zach Wise",
-                    "caption":""
-                }
-            },
-			{
-                "startDate":"1990,2,7",
-                "headline":"Flickr",
-                "text":"To add a Flickr photo, just paste a link to the photo page in the media field. Example: http://www.flickr.com/photos/zachwise/6687123779/",
-                "asset":
-                {
-                    "media":"http://www.flickr.com/photos/zachwise/7050589957/in/photostream/",
-                    "credit":"Zach Wise",
-                    "caption":"March to work."
-                }
-            },
-
-			{
-                "startDate":"2012,1,18",
-                "headline":"SoundCloud ",
-                "text":"Just add a link to the track in the media field.",
-                "asset":
-                {
-                    "media":"http://soundcloud.com/beastieboys/make-some-noise",
-                    "credit":"",
-                    "caption":"R.I.P. MCA."
-                }
-            },
-			{
-                "startDate":"2011,8,23",
-                "headline":"Vimeo",
-                "text":"<p>Just add a link to the video in the media field. Example: https://vimeo.com/33211636</p>",
-                "asset":
-                {
-                    "media":"https://vimeo.com/33211636",
-                    "credit":"Denis Chapon",
-                    "caption":""
-                }
-            },
-			{
-                "startDate":"2001,2,10",
-                "headline":"A Tweet",
-                "text":"To add a tweet, just paste a link to the tweet stats in the media field. Example: http://twitter.com/alykat/status/164184609519697920",
-                "asset":
-                {
-                    "media":"http://twitter.com/alykat/status/164184609519697920",
+                    "media":"http://merunga.github.com/lastraperas-wayra/img/etiqueta.png",
                     "credit":"",
                     "caption":""
                 }
             },
 			{
-                "startDate":"2002,12,10",
-                "headline":"Yet Another Tweet",
+                "startDate":"2011,6",
+                "headline":"Tercer Evento",
+                "text":"Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!",
                 "asset":
                 {
-                    "media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
+                    "media":"http://vimeo.com/26171456",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2011,12",
+                "endDate":"2012,2",
+                "headline":"Traperas Navidad y Traperas Carnaval",
+                "text":"Con la llegada de las fiestas, alquilamos un local para hacer una temporada de eventos.",
+                "asset":
+                {
+                    "media":"fotos!",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2012,3",
+                "headline":"Nace la tienda",
+                "text":"Nos movimos del formato 'eventos' al formato de tienda. Y ahora contamos con nuestro local, es dificil de encontrar, pero inclusive así recibimos 2000 mensualmente.",
+                "asset":
+                {
+                    "media":"<iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com/maps/ms?msa=0&amp;msid=214547727269834019154.0004c18662d10589a718f&amp;ie=UTF8&amp;t=m&amp;z=17&amp;output=embed'></iframe><br /><small>View <a href='https://maps.google.com/maps/ms?msa=0&amp;msid=214547727269834019154.0004c18662d10589a718f&amp;ie=UTF8&amp;t=m&amp;z=17&amp;source=embed' style='color:#0000FF;text-align:left'>Las Traperas</a> in a larger map</small>",
                     "credit":"",
                     "caption":""
                 }

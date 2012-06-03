@@ -163,7 +163,7 @@ a:focus {
     We start with basics to make sure it displays correctly in everywhere ...
 */
 
-.step {
+.step, .deco {
     position: relative;
     width: 900px;
     padding: 40px;
@@ -185,7 +185,7 @@ a:focus {
     
     Basically we remove the margin and make inactive steps a little bit transparent.
 */
-.impress-enabled .step {
+.impress-enabled .step, .impress-enabled .deco {
     margin: 0;
     opacity: 0.3;
 
@@ -196,6 +196,7 @@ a:focus {
     transition:         opacity 1s;
 }
 
+.impress-enabled .deco { opacity: 0.5 }
 .impress-enabled .step.active { opacity: 1 }
 
 /*

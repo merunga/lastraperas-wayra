@@ -312,11 +312,42 @@
                     el: el
                 };
             
-            if ( !el.id ) {
-                el.id = "step-" + (idx + 1);
-            }
+            //if(el.hasClass('step')) {
+              if ( !el.id ) {
+                  el.id = "step-" + (idx + 1);
+              }
+              
+              stepsData["impress-" + el.id] = step;
+            //}
             
-            stepsData["impress-" + el.id] = step;
+            css(el, {
+                position: "absolute",
+                transform: "translate(-50%,-50%)" +
+                           translate(step.translate) +
+                           rotate(step.rotate) +
+                           scale(step.scale),
+                transformStyle: "preserve-3d"
+            });
+        };
+
+        // `initDeco` initializes given step element by reading data from its
+        // data attributes and setting correct styles.
+        var initDeco = function ( el, idx ) {
+            var data = el.dataset,
+                step = {
+                    translate: {
+                        x: toNumber(data.x),
+                        y: toNumber(data.y),
+                        z: toNumber(data.z)
+                    },
+                    rotate: {
+                        x: toNumber(data.rotateX),
+                        y: toNumber(data.rotateY),
+                        z: toNumber(data.rotateZ || data.rotate)
+                    },
+                    scale: toNumber(data.scale, 1),
+                    el: el
+                };
             
             css(el, {
                 position: "absolute",
@@ -389,6 +420,10 @@
             // get and init steps
             steps = $$(".step", root);
             steps.forEach( initStep );
+
+            // get and init steps
+            var decoration = $$(".deco");
+            decoration.forEach( initDeco );
             
             // set a default initial state of the canvas
             currentState = {

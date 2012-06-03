@@ -94,7 +94,7 @@
                 "startDate":"2012,7",
                 "endDate":"2012,12",
                 "headline":"¿Las Traperas es Acelerado dentro de Wayra?<br/><small>",
-                "text":"http://wayra.org/sites/all/themes/custom/wayra/logo.png",
+                "text":"<img src='http://wayra.org/sites/all/themes/custom/wayra/logo.png'></img>",
                 "asset":
                 {
                     "media":"",

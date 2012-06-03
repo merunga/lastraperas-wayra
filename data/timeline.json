@@ -15,7 +15,7 @@
 			{
                 "startDate":"2010,7",
                 "headline":"Primer Evento",
-                "text":"<li><strong>personas esperadas: 120 personas</strong><li>&nbsp;</li><li><strong>asistentes: 500 personas</strong></li><li>&nbsp;</li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
+                "text":"<li><strong>personas esperadas: 120 personas</strong><li><strong>asistentes: 500 personas</strong></li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
                 "asset":
                 {
                     "media":"fotos!",
@@ -26,7 +26,7 @@
 			{
                 "startDate":"2010,12",
                 "headline":"¿Cómo manejamos la demanda?",
-                "text":"En nuestros intentos de no perder la demanda, desarrollamos un sistema, para que las proveedoras saquen sus citas. El servidor colapsa a las pocas horas de publicar el link (CIENTOS de conexiones simultaneas)",
+                "text":"En nuestros intentos de no perder la demanda, desarrollamos un sistema para que las proveedoras saquen sus citas. El servidor colapsa a las pocas horas de publicar el link (CIENTOS de conexiones simultaneas)",
                 "asset":
                 {
                     "media":"http://entusdias.com/wp-content/uploads/2011/03/error-500-1299267129.jpg",
@@ -37,7 +37,7 @@
 			{
                 "startDate":"2011,2",
                 "headline":"Segundo Evento",
-                "text":"<li><strong>personas esperadas: 1500 personas</strong><li>&nbsp;</li><li><strong>asistentes: 3000 personas</strong></li><li>&nbsp;</li><li><strong>prendas recolectadas: 4000</strong></li><li>&nbsp;</li></ul>",
+                "text":"<li><strong>personas esperadas: 1500 personas</strong><li><strong>asistentes: 3000 personas</strong></li><li><strong>prendas recolectadas: 4000</strong></li></ul>",
                 "asset":
                 {
                     "media":"http://maps.google.com/maps?q=chicago&hl=en&sll=41.874961,-87.619054&sspn=0.159263,0.351906&t=t&hnear=Chicago,+Cook,+Illinois&z=11",
@@ -93,11 +93,11 @@
 			{
                 "startDate":"2012,7",
                 "endDate":"2012,12",
-                "headline":"¿Las Traperas es Acelerado dentro de Wayra?",
-                "text":"",
+                "headline":"¿Las Traperas es Acelerado dentro de Wayra?<br/><small>",
+                "text":"http://wayra.org/sites/all/themes/custom/wayra/logo.png",
                 "asset":
                 {
-                    "media":"http://wayra.org/sites/all/themes/custom/wayra/logo.png",
+                    "media":"",
                     "credit":"",
                     "caption":""
                 }

@@ -18,7 +18,7 @@
                 "text":"<li><strong>personas esperadas: 120 personas</strong><li>&nbsp;</li><li><strong>asistentes: 500 personas</strong></li><li>&nbsp;</li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
                 "asset":
                 {
-                    "media":"",
+                    "media":"fotos!",
                     "credit":"",
                     "caption":""
                 }
@@ -47,17 +47,6 @@
             },
 			{
                 "startDate":"2011,5",
-                "headline":"Mariano se integra al equipo",
-                "text":"Ante la gran demanda, se busca crear un sistema centralizado para los procesos de inventariado y venta.",
-                "asset":
-                {
-                    "media":"",
-                    "credit":"",
-                    "caption":""
-                }
-            },
-			{
-                "startDate":"2011,6",
                 "headline":"Sistematización de la tienda",
                 "text":"Establecimos una metodología de inventariado aplicando un sistema de códigos de barras que nos solucionó la vida... por un tiempo.",
                 "asset":
@@ -96,7 +85,19 @@
                 "text":"Nos movimos del formato 'eventos' al formato de tienda. Y ahora contamos con nuestro local, es dificil de encontrar, pero inclusive así recibimos 2000 mensualmente.",
                 "asset":
                 {
-                    "media":"<iframe width='425' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com/maps/ms?msa=0&amp;msid=214547727269834019154.0004c18662d10589a718f&amp;ie=UTF8&amp;t=m&amp;z=17&amp;output=embed'></iframe><br /><small>View <a href='https://maps.google.com/maps/ms?msa=0&amp;msid=214547727269834019154.0004c18662d10589a718f&amp;ie=UTF8&amp;t=m&amp;z=17&amp;source=embed' style='color:#0000FF;text-align:left'>Las Traperas</a> in a larger map</small>",
+                    "media":"https://maps.google.com/maps/ms?msid=214547727269834019154.0004c18662d10589a718f&msa=0&ll=-12.146075,-77.021778&spn=0.006167,0.00912",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+			{
+                "startDate":"2012,7",
+                "endDate":"2012,12",
+                "headline":"¿Las Traperas es Acelerado dentro de Wayra?",
+                "text":"",
+                "asset":
+                {
+                    "media":"http://wayra.org/sites/all/themes/custom/wayra/logo.png",
                     "credit":"",
                     "caption":""
                 }

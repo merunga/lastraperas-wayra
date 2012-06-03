@@ -21,12 +21,10 @@
         utilizada en esta presentación, por lo tanto de presenta un versión simplificada
       %p
         Para ver al presentación tal y como fue diseñanada, por favor instala la última versión de
-        = succeed "," do
-          %b Chrome
-        %b Safari
-        o
-        = succeed "." do
-          %b Firefox
+        %b
+          %a{"href" => "https://www.google.com/chrome?hl=es", "target" => "_blank"}
+            Chrome
+
     
     //// PRESENTACION
     #impress
@@ -44,7 +42,7 @@
 
       //// QUE SON LAS TRAPERAS
       #timeline.centered.step{"data-x" => "400", "data-y" => "-500", "data-scale"=>"2"}
-        %iframe{"src"=>"timeline.html"}
+        %iframe{"src"=>"timeline.html","width"=>"900","height"=>"600"}
         
         
       //// PROBLEMAS
@@ -200,7 +198,7 @@
       ////USUARIOS 1: JUEGOS Y TESTS
       .step.use-case{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "9400", "data-y" => "2600"}
         %h2
-          test sobre tus gustos
+          tests lúdicos sobre tus gustos
           %sup *
         %h1 [imagen]
         %span.footnote
@@ -211,7 +209,7 @@
       ////NOSOTROS 1
       .step{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "9400", "data-y" => "1500"}
         %h2 a Nosotros
-        %h1.centered nos permite conocer a nuestras usuarios e identificar tempranamente tendencias
+        %h1.centered nos permite conocer a nuestr@s usuari@s e identificar tempranamente tendencias
         
       ////USUARIOS 2: PERSONALIZACION
       .step.use-case{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10000", "data-y" => "2600"}
@@ -224,7 +222,7 @@
         %ul
           %li nos permite itentificar posibles proveedoras
           %li estimular la creación de un vínculo entre usuaria-herramienta
-          %li ofertar publicidad responsablemente
+          %li ofertar a la medida
 
         
       ////USUARIO 3: HUELLA ECOLOGICA
@@ -266,31 +264,31 @@
         %h2 a Nosotros nos brinda
         %ul
           %li Información más confiable y de primera mano
+          %li + una herramienta para el estudio "en vivo" de mercado
           %li
-            %h2.centered +
-          %li una herramienta para el estudio "en vivo" de mercado
-          %li
-            %h2.centered =
-          %li
-            %strong Un modelo de negocio basado en la gestión de la información y el conocimiento
+            \=
+            %strong Un modelo de negocio basado en la gestión de la información y el conocimiento, que nos permite adaptarnos rápidamente a los cambios del mercado.
 
       ////PLANETA 2
       .step{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11800", "data-y" => "1500"}
         %h2 para el Planeta y la Humanidad
         %ul
-          %li Descentralización de la economía
+          %li Democratización del acceso a la moda
+          %li Descentralización y desverticalización de la economía
           %li Minimización de la huella ecológica
       
      
       ////CIERRE
-      #por-la-pacha.step{"data-scale" => "1", "data-x" => "8600", "data-y" => "2100"}
+      #por-la-pacha.step.centered{"data-scale" => "0.20", "data-x" => "8505", "data-y" => "2190"}
         /%object{:data => "img/Erioll_world_2.svg", :height => "800", :type => "image/svg+xml"}
         /%embed{:src => "img/Erioll_world_2.svg", :type => "image/svg+xml"}/
         /%img#world_img.hidden{:src => "img/world.png"}/
-        %h1 consumo responsable
-        %p con mucho gusto
-        %p poco gasto
-        %p y la conciencia limpia
+        %div
+          %p compra con mucho gusto
+          %p poco gasto
+          %p y la conciencia limpia
+        %br
+        %img{"src"=>"img/logo-reciclaje.png"}
 
       #overview.step{"data-scale" => "10", "data-x" => "3000", "data-y" => "1500"}
   
@@ -309,7 +307,8 @@
     
     ////FOOTER
     %div{:style => "position: fixed; bottom: 10px; left: 10px; pointer-events: auto;"}
-      %img{:atl => "google chrome recomendado", :src => "bvi-chrome.png", :title => "google chrome recomendado"}/
+      %a{"href" => "https://www.google.com/chrome?hl=es", "target" => "_blank"}
+        %img{:atl => "google chrome recomendado", :src => "bvi-chrome.png", :title => "google chrome recomendado"}/
 
     ////ANALYTICS
     :javascript

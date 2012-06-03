@@ -121,61 +121,48 @@
        
       ////CANTIDAD ABRUMADORA
       .step.slide{"data-rotate" => "180", "data-x" => "-1000", "data-y" => "900"}
-        %p
-          %h2
-            cantidad abrumadora
-            %h2
-              %ul
-                %li Facebook => 50% de los usuarios de internet
-                %li Google => 90% usuarios
-                %li
-                  Cada vez más compañías se unen a la tendencia
-                  %ul
-                    %br/
-                    \=> los usuarios necesitamos menos publicidad, pero mas interesante
+        %h2 centralizacion
+        %iframe{"src"=>"graph/distrib-ganancias.html","width"=>"500","height"=>"500"}
                 
       ////POCO CERTERA
       .step.slide{"data-rotate" => "180", "data-x" => "-2000", "data-y" => "900"}
         %p
           %h2
             poco certera
-            %h2/
+          %div
             %p
               Basada en datos
               %i inferidos
               de los navegadores o propios una plataforma específica (aka fb)
             %br/
+            
+          %div.left{"style"=>"width:60%"}
             \=> los usuarios necesitamos
             %i sintonizar
             la publicidad a nuestras necesidades
+          %img{"src"=>"http://inthepinesonfbi.files.wordpress.com/2011/03/lady-with-wireless-radio-vintage-rp-postcard_270700241964.jpg?w=500","style"=>"float:left"}
+
             
       ////MUCHO WASTE
       .step.slide{"data-rotate" => "180", "data-x" => "-3000", "data-y" => "900"}
         %p
-          %h2 mucho "ruido" y desperdicio
-          %p
-            despierta poco interés (inclusive rechazo e
-            %i inmunidad
-            a la publicidad)
-          %p => no es una fuente confiable para nosotros los usuarios
+          %h2 extremadamente masiva y poco eficiente
+          %div.left
+            %img.left{"src"=>"img/facebook-reach.png"}
+            %p.left{"style"=>"width:60%"} de los usuarios de internet reciben ads de facebook
+          %div.right
+            %img.left{"src"=>"img/google-reach.png"}
+            %p.left{"style"=>"width:60%"} de los usuarios de internet reciben 180 billones ads mensuales gracias a google
+            
+          %p en facebook solamente 5 de cada 100 anuncios mostrados son clickeados
+          %p 3 de cada 10 anuncios mostrados nunca son vistos
 
-      ////CTR
-      #ctr.step.slide{"data-rotate" => "180", "data-x" => "-4000", "data-y" => "900"}
-        %p
-          muy baja eficiencia (
-          %a{:href => "http://en.wikipedia.org/wiki/Clickthrough_rate", :target => "_blank"}> CTR
-          )
-          %ul
-            %li CTR mercado global => 0.1%
-            %li CTR google => 0.4%
-            %li CTR facebook => 0.051% (y bajando)
-          %br/
           %span.footnote
             %a{:href => "http://www.wordstream.com/articles/facebook-vs-google-display-network", :target => "_blank"} http://www.wordstream.com/articles/facebook-vs-google-display-network
 
             %a{:href => "http://www.periscopix.co.uk/blog/latest-2011-google-display-network-benchmarks", :target => "_blank"} http://www.periscopix.co.uk/blog/latest-2011-google-display-network-benchmarks
 
-            %a{:href => "http://venturebeat.com/2012/02/02/facebook-ctr/", :target => "_blank"} http://venturebeat.com/2012/02/02/facebook-ctr
+            %a{:href => "http://venturebeat.com/2012/02/02/facebook-ctr/", :target => "_blank"} http://venturebeat.com/2012/02/02/facebook-ctr        
 
       ////LA HERRAMIENTA
       #la-herramienta.step.centered{"data-rotate" => "-90", "data-scale" => "12", "data-x" => "8000", "data-y" => "2100"}
@@ -308,7 +295,7 @@
     ////FOOTER
     %div{:style => "position: fixed; bottom: 10px; left: 10px; pointer-events: auto;"}
       %a{"href" => "https://www.google.com/chrome?hl=es", "target" => "_blank"}
-        %img{:atl => "google chrome recomendado", :src => "bvi-chrome.png", :title => "google chrome recomendado"}/
+        %img{:atl => "google chrome recomendado", :src => "img/bvi-chrome.png", :title => "google chrome recomendado"}/
 
     ////ANALYTICS
     :javascript

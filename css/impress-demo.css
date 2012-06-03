@@ -115,6 +115,16 @@ a {
     transition:         0.5s;
 }
 
+.left {
+    float:left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+
 a:hover,
 a:focus {
 }

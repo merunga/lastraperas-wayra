@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Vertical and Horizontal Bar Charts</title>
+  
+  <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="excanvas.js"></script><![endif]-->
+
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.jqplot.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/jquery.jqplot.min.css" />
+  <link rel="stylesheet" type="text/css" href="../css/examples.css" />
+</head>
+<body>
+  <div class="example-content">
+    <style type="text/css">
+      
+      .note {
+          font-size: 0.8em;
+      }
+      .jqplot-yaxis-tick {
+        white-space: nowrap;
+      }
+    </style>
+          
+    <div id="chart" style="width:700px; height:300px;"></div>
+
+    <script class="code" type="text/javascript">
+      $(document).ready(function(){
+        var google = [34.9,40.3,42.5,41.9,44.1];
+        var ms = [8.1,7.9,4.2,4,4];
+        var yahoo = [18.7,14.9,11.7,9.6,8.3];
+        var aol = [6.3,5.5,4.2,2.2,1.5];
+        var fb = [0.2,0.4,0.6,1.4,3.1];
+        var otros = [31.8,31,36.8,40.9,39];
+        var ticks = [2006,2007,2008,2009,2010];
+        var plot1 = $.jqplot('chart', [google,ms,yahoo,aol,fb,otros], {
+            // The "seriesDefaults" option is an options object that will
+            // be applied to all series in the chart.
+            seriesDefaults:{
+                renderer:$.jqplot.BarRenderer,
+                rendererOptions: {fillToZero: true}
+            },
+            rendererOptions: {
+                barDirection: 'horizontal'
+            },
+            // Custom labels for the series are specified with the "label"
+            // option on the series option.  Here a series option object
+            // is specified for each series.
+            series:[
+                {label:'Google'},
+                {label:'Microsoft'},
+                {label:'Yahoo!'},
+                {label:'AOL'},
+                {label:'Facebook'},
+                {label:'Otros'}
+            ],
+            // Show the legend and put it outside the grid, but inside the
+            // plot container, shrinking the grid to accomodate the legend.
+            // A value of "outside" would not shrink the grid and allow
+            // the legend to overflow the container.
+            legend: {
+                show: true,
+                placement: 'outsideGrid'
+            },
+            axes: {
+                // Use a category axis on the x axis and use our custom ticks.
+                xaxis: {
+                    renderer: $.jqplot.CategoryAxisRenderer,
+                    ticks: ticks
+                },
+                // Pad the y axis just a little so bars can get close to, but
+                // not touch, the grid boundaries.  1.2 is the default padding.
+                yaxis: {
+                    pad: 1.05,
+                    tickOptions: {formatString: '%d'}
+                }
+            }
+        });
+      });
+    </script>
+    <pre>* mensualmente (en billones)</pre>    
+
+    <!-- End example scripts -->
+
+    <!-- Don't touch this! -->
+      <script type="text/javascript" src="syntaxhighlighter/scripts/shCore.min.js"></script>
+      <script type="text/javascript" src="syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
+      <script type="text/javascript" src="syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+    <!-- End Don't touch this! -->
+
+    <!-- Additional plugins go here -->
+      <script class="include" language="javascript" type="text/javascript" src="../js/plugins/jqplot.barRenderer.min.js"></script>
+      <script class="include" language="javascript" type="text/javascript" src="../js/plugins/jqplot.categoryAxisRenderer.min.js"></script>
+      <script class="include" language="javascript" type="text/javascript" src="../js/plugins/jqplot.pointLabels.min.js"></script>
+    <!-- End additional plugins -->
+
+  	</div>	
+  	<script type="text/javascript" src="example.min.js"></script>
+</body>
+</html>

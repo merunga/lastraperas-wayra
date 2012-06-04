@@ -15,7 +15,7 @@
 			{
                 "startDate":"2010,9",
                 "headline":"Primer Evento",
-                "text":"<ul><li><strong>duración:</strong> 3 días</li><li><strong>personas esperadas:</strong> 120 personas</li><li><strong>asistentes:</strong> 500 personas</li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
+                "text":"<ul><li><strong>duración:</strong> 3 días</li><li><strong>personas esperadas:</strong> 120 personas</li><li><strong>asistentes:</strong> 500 personas</li></ul><br/><p>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</p>",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/evento1.jpg",
@@ -37,7 +37,7 @@
 			{
                 "startDate":"2011,2",
                 "headline":"Segundo Evento",
-                "text":"<ul><li><strong>duración:</strong> 7 días</li><li><strong>personas esperadas:</strong> 1500 personas</li><li><strong>asistentes:</strong> 3000 personas</li><li><strong>prendas recolectadas:</strong> 4000</li><li>Se vuelve un evento masivo</li><li>Aparece el robo</li><li>1000 personas nos dejan sus mails</li><li>Se consolida alianza con <a href='http://www.mundodeania.org/' target='_blank'>ONG ANIA</a></li></ul>",
+                "text":"<ul><li><strong>duración:</strong> 7 días</li><li><strong>personas esperadas:</strong> 1500 personas</li><li><strong>asistentes:</strong> 3000 personas</li><li><strong>prendas recolectadas:</strong> 4000</li></ul><br/><p>Se vuelve un evento masivo.<br/>Aparece el robo.<br />1000 personas nos dejan sus mails.<br/>Se consolida alianza con <a href='http://www.mundodeania.org/' target='_blank'>ONG ANIA</a></p>",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/evento2.jpg",
@@ -59,7 +59,7 @@
             {
                 "startDate":"2011,7",
                 "headline":"Tercer Evento",
-                "text":"<ul><li><strong>duración:</strong> 15 días</li></ul><h4>Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!.<br/>Contratamos a nuestro primer empleado.</h4>",
+                "text":"<ul><li><strong>duración:</strong> 15 días</li></ul><br/><p>Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!<br/>Contratamos a nuestro primer empleado.</p>",
                 "asset":
                 {
                     "media":"http://vimeo.com/26171456",
@@ -70,7 +70,7 @@
             {
                 "startDate":"2011,7",
                 "headline":"Primer taller de conciencia ambiental",
-                "text":"Cupo lleno. Abrimos otro y también se llena. Superamos ventas anteriores.",
+                "text":"Cupo lleno. Abrimos otro y también se llena.<br/> Superamos ventas anteriores.",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/taller.jpg",
@@ -82,10 +82,10 @@
                 "startDate":"2011,12",
                 "endDate":"2012,2",
                 "headline":"Traperas Navidad y Traperas Carnaval",
-                "text":"Los eventos pasan de Empezamos a vender objetos. Análisis de información recogida en los eventos anterires, nos permite hacer una mejor selección.",
+                "text":"<ul><li><strong>duración:</strong> 30 días cada evento</li></ul><br /><p>Empezamos a vender objetos.<br/> Análisis de información recogida en los eventos anteriores, nos permite hacer una mejor selección.</p>",
                 "asset":
                 {
-                    "media":"fotos!",
+                    "media":"http://merunga.github.com/lastraperas-wayra/img/evento-navidad.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -93,7 +93,7 @@
 			{
                 "startDate":"2012,3",
                 "headline":"Nace la tienda",
-                "text":"Nos movimos del formato 'eventos' al formato tienda. Alquilamos local, a puerta cerrada, en segundo piso y sin letrero, 500 personas nos visitan al mes y nuestra base de datos de interesados sigue creciendo. Contratamos personal fijo.",
+                "text":"Nos movimos del formato 'eventos' al formato tienda.<br/>Alquilamos local a puerta cerrada, en segundo piso y sin letrero. Igual nos visitan 500 personas cada mes y nuestra base de datos de contactos sigue creciendo. <br/>Contratamos personal fijo.",
                 "asset":
                 {
                     "media":"https://maps.google.com/maps/ms?msid=214547727269834019154.0004c18662d10589a718f&msa=0&ll=-12.146075,-77.021778&spn=0.006167,0.00912",

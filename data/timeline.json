@@ -4,7 +4,7 @@
         "headline":"Breve historia de Las Traperas",
         "type":"default",
 		"startDate":"2010",
-		"text":"Como surgió el proyecto y que hemos aprendido.",
+		"text":"Como surgió el proyecto y logros obtenidos en dos años de vida.",
 		"asset":
         {
             "media":"http://www.lastraperas.com",
@@ -15,7 +15,7 @@
 			{
                 "startDate":"2010,9",
                 "headline":"Primer Evento",
-                "text":"<li><strong>personas esperadas: 120 personas</strong><li><strong>asistentes: 500 personas</strong></li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
+                "text":"<ul><li><strong>duración:</strong> 3 días</li><li><strong>personas esperadas:</strong> 120 personas</li><li><strong>asistentes:</strong> 500 personas</li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/evento1.jpg",
@@ -37,7 +37,7 @@
 			{
                 "startDate":"2011,2",
                 "headline":"Segundo Evento",
-                "text":"<li><strong>personas esperadas: 1500 personas</strong><li><strong>asistentes: 3000 personas</strong></li><li><strong>prendas recolectadas: 4000</strong></li></ul><h4>Se vuelve</h4>",
+                "text":"<ul><li><strong>duración:</strong> 7 días</li><li><strong>personas esperadas:</strong> 1500 personas</li><li><strong>asistentes:</strong> 3000 personas</li><li><strong>prendas recolectadas:</strong> 4000</li><li>Se vuelve un evento masivo</li><li>Aparece el robo</li><li>1000 personas nos dejan sus mails</li><li>Se consolida alianza con <a href='http://www.mundodeania.org/' target='_blank'>ONG ANIA</a></li></ul>",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/evento2.jpg",
@@ -59,7 +59,7 @@
             {
                 "startDate":"2011,7",
                 "headline":"Tercer Evento",
-                "text":"Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!. Contratamos a nuestro primer empleado.",
+                "text":"<ul><li><strong>duración:</strong> 15 días</li></ul><h4>Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!.<br/>Contratamos a nuestro primer empleado.</h4>",
                 "asset":
                 {
                     "media":"http://vimeo.com/26171456",
@@ -73,7 +73,7 @@
                 "text":"Cupo lleno. Abrimos otro y también se llena. Superamos ventas anteriores.",
                 "asset":
                 {
-                    "media":"http://merunga.github.com/lastraperas-wayra/img/etiqueta.png",
+                    "media":"http://merunga.github.com/lastraperas-wayra/img/taller.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -93,7 +93,7 @@
 			{
                 "startDate":"2012,3",
                 "headline":"Nace la tienda",
-                "text":"Nos movimos del formato 'eventos' al formato tienda. Y ahora contamos con nuestro local, es dificil de encontrar, pero inclusive así recibimos 2000 mensualmente. Contratamos personal fijo.",
+                "text":"Nos movimos del formato 'eventos' al formato tienda. Alquilamos local, a puerta cerrada, en segundo piso y sin letrero, 500 personas nos visitan al mes y nuestra base de datos de interesados sigue creciendo. Contratamos personal fijo.",
                 "asset":
                 {
                     "media":"https://maps.google.com/maps/ms?msid=214547727269834019154.0004c18662d10589a718f&msa=0&ll=-12.146075,-77.021778&spn=0.006167,0.00912",

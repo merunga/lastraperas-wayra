@@ -6,7 +6,7 @@
     %meta{:content => "width=1024", :name => "viewport"}/
     %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}/
     %title Las Traperas | Wayra Perú 2012
-    %meta{:content => "Las Traperas | Wayra Perú 2012", :name => "description"}/
+    %meta{:content => "Las Traperas Online | Wayra Perú 2012", :name => "description"}/
     %meta{:content => "Mariano Crowe", :name => "author"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic", :rel => "stylesheet"}/
     %link{:href => "css/impress-demo.css", :rel => "stylesheet"}/
@@ -29,19 +29,19 @@
     //// PRESENTACION
     #impress
       //// INTRO
-      #title.step.centered{"data-scale" => "1", "data-x" => "-1300", "data-y" => "-1200"}
+      #intro.step.centered{"data-scale" => "1", "data-x" => "-2000", "data-y" => "-2800"}
         %img{:src => "img/lastraperas.png"}/
-      #ywayra.title.step.centered{"data-scale" => "1", "data-x" => "-1300", "data-y" => "-900"}
+      #ywayra.title.step.centered{"data-scale" => "1", "data-x" => "-2000", "data-y" => "-2400"}
         %h1 +
         %img{:src => "img/wayra.png"}/
-      #idea.title.step.centered{"data-scale" => "1", "data-x" => "-1300", "data-y" => "-200"}
+      #idea.title.step.centered{"data-scale" => "4", "data-x" => "-2000", "data-y" => "-1000"}
         %p =
         %h1 Las Traperas Online
         %h2
           %i tu asesor de moda personal
 
-      //// QUE SON LAS TRAPERAS
-      #timeline.centered.step{"data-x" => "400", "data-y" => "-500", "data-scale"=>"2"}
+      //// TIMELINE
+      #timeline.centered.step{"data-x" => "1800", "data-y" => "-1200", "data-scale"=>"2"}
         %iframe{"src"=>"timeline.html","width"=>"900","height"=>"600"}
         
         
@@ -176,7 +176,7 @@
         %small
           %q ¿Cómo sería?
 
-      .deco.big.centered{"data-x" => "10600", "data-y" => "3100", "data-scale"=>"10"}
+      .deco.big.centered{"data-x" => "10600", "data-y" => "3300", "data-scale"=>"10"}
         %h1 usuarios
 
       .deco.big.centered{"data-x" => "10000", "data-y" => "900", "data-scale"=>"7"}
@@ -189,54 +189,55 @@
           planeta
 
       ////USUARIOS 1: JUEGOS Y TESTS
-      .step.use-case{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "9400", "data-y" => "2600"}
-        %h1 para los usuarios
-        %h2
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "9400", "data-y" => "2600"}
+        %span.title para las usuarias:
+        %span.desc
           tests lúdicos sobre tus gustos
           %sup *
-        %img{"src"=>"img/use-case1.png","width"=>"1000",:style=>"margin-left:-100px" }
+        %div.content
+          %img{"src"=>"img/use-case1.png","width"=>"950",:style=>"margin-left:-100px" }
         %span.footnote
           %sup *
           La misma razon por la que funciona cosmopolitan
 
       ////NOSOTROS 1
-      .step{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "9400", "data-y" => "1500"}
-        %h2 a Nosotros
-        %h1.centered nos permite conocer a nuestr@s usuari@s e identificar tempranamente tendencias
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "9400", "data-y" => "1500"}
+        %div.title a Nosotros
+        %div.content nos permite conocer a nuestr@s usuari@s e identificar tempranamente tendencias
         
       ////USUARIOS 2: PERSONALIZACION
-      .step.use-case{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10000", "data-y" => "2600"}
-        %h1 para los usuarios
-        %h3 aprende de ti y te ofrece lo que realmente te puedan interesar
-        %p.centered
-          %img{"src"=>"img/use-case2.png","width"=>"1000",:style=>"margin-left:-100px"}
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10200", "data-y" => "2600"}
+        %span.title para los usuarios:
+        %span.desc aprende de ellos y les ofrece lo que realmente les puedan interesar
+        %div.content
+          %img{"src"=>"img/use-case2.png","width"=>"950",:style=>"margin-left:-100px"}
 
       ////NOSOTROS 2
-      .step{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10000", "data-y" => "1500"}
-        %h2 a nosotros
-        %ul
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10000", "data-y" => "1500"}
+        %div.title a nosotros
+        %ul.content
           %li nos permite itentificar posibles proveedoras
           %li estimular la creación de un vínculo entre usuaria-herramienta
           %li ofertar a la medida
 
         
       ////USUARIO 3: HUELLA ECOLOGICA
-      .step.use-case{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10600", "data-y" => "2600"}
-        %h1 para los usuarios
-        %h2 calcula tu huella ecológica
-        %p.centered
-          %img{"src"=>"img/use-case3.png","width"=>"1000",:style=>"margin-left:-100px"}
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11000", "data-y" => "2600"}
+        %span.title para los usuarios:
+        %span.desc calcula tu huella ecológica
+        %div.content.centered
+          %img{"src"=>"img/use-case3.png","width"=>"950",:style=>"margin-left:-100px"}
 
       ////PLANETA 1
-      .step{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10600", "data-y" => "1500"}
-        %h2 para el planeta
-        %h1 crea conciencia y promueve el consumo responsable
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "10600", "data-y" => "1500"}
+        %div.title para el planeta
+        %div.content crea conciencia y promueve el consumo responsable
 
       ////USUARIO 4: Y MUCHO MÁS
-      .step.slide.use-case{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11200", "data-y" => "2600"}
-        %h1 para los usuarios
-        %h2 ... y mucha interacciones más
-        %ul
+      .step.slide.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11800", "data-y" => "2600"}
+        %div.title para los usuarios
+        %div.desc ... y mucha interacciones más
+        %ul.content
           %li mandarle opciones a tu amiga
           %li hacer el test como si fueras tu amiga y mandarle el resultado y compararlo (como te ven tus amigas?)
           %li pedir recomendaciones para situaciones especiales (soy dark y tengo un matri de día, que me pongo?)
@@ -251,9 +252,9 @@
         %p ... y mil cosas más q no entran en esta presentación!
           
       ////NOSOTROS 3
-      .step{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11200", "data-y" => "1500"}
-        %h2 a Nosotros nos brinda
-        %ul
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11200", "data-y" => "1500"}
+        %div.title a Nosotros nos brinda
+        %ul.content
           %li Información más confiable y de primera mano
           %li + una herramienta para el estudio "en vivo" de mercado
           %li
@@ -261,9 +262,9 @@
             %strong Un modelo de negocio basado en la gestión de la información y el conocimiento, que nos permite adaptarnos rápidamente a los cambios del mercado.
 
       ////PLANETA 2
-      .step{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11800", "data-y" => "1500"}
-        %h2 para el Planeta y la Humanidad
-        %ul
+      .step.tool{"data-rotate" => "-90", "data-scale" => "0.75", "data-x" => "11800", "data-y" => "1500"}
+        %div.title para el Planeta y la Humanidad
+        %ul.content
           %li Democratización del acceso a la moda
           %li Descentralización y desverticalización de la economía
           %li Minimización de la huella ecológica
@@ -273,8 +274,8 @@
         /%object{:data => "img/Erioll_world_2.svg", :height => "800", :type => "image/svg+xml"}
         /%embed{:src => "img/Erioll_world_2.svg", :type => "image/svg+xml"}/
         /%img#world_img.hidden{:src => "img/world.png"}/
-        %h2 ¿Por qué deben elegirnos?
-        %ul
+        %div.title ¿Por qué deben elegirnos?
+        %ul.content
           %li Equipo multidisciplinario de creativos
           %li Mayormente compuesto por mujeres
           %li Tenemos un mercado ya identificado

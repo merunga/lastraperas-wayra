@@ -125,6 +125,22 @@ a {
     clear: both;
 }
 
+.reach {
+    width: 600px;
+}
+
+.reach p {
+    background-color: #f0554a;
+    border-radius: 5px;
+    margin-left: -20px;
+    padding-left:40px;
+    color: white;
+    margin-top: 30px;
+}
+.reach img {
+    z-index: 1000;
+}
+
 a:hover,
 a:focus {
 }

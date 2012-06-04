@@ -13,12 +13,12 @@
         },
         "date": [
 			{
-                "startDate":"2010,7",
+                "startDate":"2010,9",
                 "headline":"Primer Evento",
                 "text":"<li><strong>personas esperadas: 120 personas</strong><li><strong>asistentes: 500 personas</strong></li></ul><h4>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</h4>",
                 "asset":
                 {
-                    "media":"fotos!",
+                    "media":"http://merunga.github.com/lastraperas-wayra/img/evento1.jpg",
                     "credit":"",
                     "caption":""
                 }
@@ -37,16 +37,16 @@
 			{
                 "startDate":"2011,2",
                 "headline":"Segundo Evento",
-                "text":"<li><strong>personas esperadas: 1500 personas</strong><li><strong>asistentes: 3000 personas</strong></li><li><strong>prendas recolectadas: 4000</strong></li></ul>",
+                "text":"<li><strong>personas esperadas: 1500 personas</strong><li><strong>asistentes: 3000 personas</strong></li><li><strong>prendas recolectadas: 4000</strong></li></ul><h4>Se vuelve</h4>",
                 "asset":
                 {
-                    "media":"http://maps.google.com/maps?q=chicago&hl=en&sll=41.874961,-87.619054&sspn=0.159263,0.351906&t=t&hnear=Chicago,+Cook,+Illinois&z=11",
+                    "media":"http://merunga.github.com/lastraperas-wayra/img/evento2.jpg",
                     "credit":"",
                     "caption":""
                 }
             },
 			{
-                "startDate":"2011,5",
+                "startDate":"2011,6",
                 "headline":"Sistematización de la tienda",
                 "text":"Establecimos una metodología de inventariado aplicando un sistema de códigos de barras que nos solucionó la vida... por un tiempo.",
                 "asset":
@@ -56,13 +56,24 @@
                     "caption":""
                 }
             },
-			{
-                "startDate":"2011,6",
+            {
+                "startDate":"2011,7",
                 "headline":"Tercer Evento",
-                "text":"Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!",
+                "text":"Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!. Contratamos a nuestro primer empleado.",
                 "asset":
                 {
                     "media":"http://vimeo.com/26171456",
+                    "credit":"",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2011,7",
+                "headline":"Primer taller de conciencia ambiental",
+                "text":"Cupo lleno. Abrimos otro y también se llena. Superamos ventas anteriores.",
+                "asset":
+                {
+                    "media":"http://merunga.github.com/lastraperas-wayra/img/etiqueta.png",
                     "credit":"",
                     "caption":""
                 }
@@ -71,7 +82,7 @@
                 "startDate":"2011,12",
                 "endDate":"2012,2",
                 "headline":"Traperas Navidad y Traperas Carnaval",
-                "text":"Con la llegada de las fiestas, alquilamos un local para hacer una temporada de eventos.",
+                "text":"Los eventos pasan de Empezamos a vender objetos. Análisis de información recogida en los eventos anterires, nos permite hacer una mejor selección.",
                 "asset":
                 {
                     "media":"fotos!",
@@ -82,7 +93,7 @@
 			{
                 "startDate":"2012,3",
                 "headline":"Nace la tienda",
-                "text":"Nos movimos del formato 'eventos' al formato de tienda. Y ahora contamos con nuestro local, es dificil de encontrar, pero inclusive así recibimos 2000 mensualmente.",
+                "text":"Nos movimos del formato 'eventos' al formato tienda. Y ahora contamos con nuestro local, es dificil de encontrar, pero inclusive así recibimos 2000 mensualmente. Contratamos personal fijo.",
                 "asset":
                 {
                     "media":"https://maps.google.com/maps/ms?msid=214547727269834019154.0004c18662d10589a718f&msa=0&ll=-12.146075,-77.021778&spn=0.006167,0.00912",

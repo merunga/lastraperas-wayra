@@ -15,7 +15,7 @@
 			{
                 "startDate":"2010,9",
                 "headline":"Primer Evento",
-                "text":"<ul><li><strong>duración:</strong> 3 días</li><li><strong>personas esperadas:</strong> 120 personas</li><li><strong>asistentes:</strong> 500 personas</li></ul><br/><p>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</p>",
+                "text":"<ul><li><strong>duración:</strong> 3 días</li><li><strong>personas esperadas:</strong> 120</li><li><strong>asistentes:</strong> 500 personas</li></ul><br/><p>Definitivamente la idea gusta, surge un boom mediático y la demanda se dispara</p>",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/evento1.jpg",
@@ -37,7 +37,7 @@
 			{
                 "startDate":"2011,2",
                 "headline":"Segundo Evento",
-                "text":"<ul><li><strong>duración:</strong> 7 días</li><li><strong>personas esperadas:</strong> 1500 personas</li><li><strong>asistentes:</strong> 3000 personas</li><li><strong>prendas recolectadas:</strong> 4000</li></ul><br/><p>Se vuelve un evento masivo.<br/>Aparece el robo.<br />1000 personas nos dejan sus mails.<br/>Se consolida alianza con <a href='http://www.mundodeania.org/' target='_blank'>ONG ANIA</a></p>",
+                "text":"<ul><li><strong>duración:</strong> 7 días</li><li><strong>personas esperadas:</strong> 1500</li><li><strong>asistentes:</strong> 3000 personas</li><li><strong>prendas recolectadas:</strong> 4000</li></ul><br/><p>Se vuelve un evento masivo.<br/>Aparece el robo y las proveedoras demandantes.<br />1000 personas nos dejan sus mails.<br/>Se consolida alianza con <a href='http://www.mundodeania.org/' target='_blank'>ONG ANIA</a></p>",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/evento2.jpg",
@@ -46,9 +46,9 @@
                 }
             },
 			{
-                "startDate":"2011,6",
+                "startDate":"2011,5",
                 "headline":"Sistematización de la tienda",
-                "text":"Establecimos una metodología de inventariado aplicando un sistema de códigos de barras que nos solucionó la vida... por un tiempo.",
+                "text":"Comenzamos a definir procedimientos.<br/>Establecemos una metodología de inventariado aplicando un sistema de códigos de barras que nos solucionó la vida... por un tiempo.",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/etiqueta.png",
@@ -59,7 +59,7 @@
             {
                 "startDate":"2011,7",
                 "headline":"Tercer Evento",
-                "text":"<ul><li><strong>duración:</strong> 15 días</li></ul><br/><p>Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!<br/>Contratamos a nuestro primer empleado.</p>",
+                "text":"<ul><li><strong>duración:</strong> 15 días</li></ul><br/><p>Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!<br/>Contratamos a nuestro primer empleado.<br/> Superamos ventas anteriores.</p>",
                 "asset":
                 {
                     "media":"http://vimeo.com/26171456",
@@ -70,7 +70,7 @@
             {
                 "startDate":"2011,7",
                 "headline":"Primer taller de conciencia ambiental",
-                "text":"Cupo lleno. Abrimos otro y también se llena.<br/> Superamos ventas anteriores.",
+                "text":"Cupo lleno. Abrimos otro y también se llena.",
                 "asset":
                 {
                     "media":"http://merunga.github.com/lastraperas-wayra/img/taller.jpg",
@@ -105,7 +105,7 @@
                 "startDate":"2012,7",
                 "endDate":"2012,12",
                 "headline":"¿Las Traperas es Acelerado dentro de Wayra?<br/><small>",
-                "text":"<img src='http://wayra.org/sites/all/themes/custom/wayra/logo.png'></img>",
+                "text":"<div style='text-align: center'><img src='http://wayra.org/sites/all/themes/custom/wayra/logo.png'></img></div>",
                 "asset":
                 {
                     "media":"",

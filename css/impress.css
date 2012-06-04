@@ -795,9 +795,9 @@ a {
     margin: 0;
 }
 
-#usuarios4 li {
-    font-size: 16pt;
+#usuarios4 li, #usuarios6 li {
     line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 #nosotros3 {

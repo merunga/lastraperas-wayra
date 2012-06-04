@@ -739,9 +739,12 @@ a {
 .tool .title {
     height:10%;
     font-size:30pt;
+    font-weight: bold;
+    margin-top: 30px;
 }
 .tool .desc {
     font-size:25pt;
+    margin-top: 15px;
 }
 .tool .content {
     padding-top:20px;
@@ -749,4 +752,44 @@ a {
 }
 .tool .footnote {
     height:10%;
+}
+
+.tool li {
+    list-style-type: circle;
+    margin-bottom: 20px;
+}
+
+.slide li {
+    list-style-type: disc;
+    margin-bottom: 20px;
+}
+
+.slide h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.slide h1 {
+    margin-left: -15px;
+    margin-top: -20px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.slide h4 {
+    font-size: 20px;
+}
+
+.slide img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#consumo-responsable .list {
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#consumo-responsable li {
+    margin: 0;
 }

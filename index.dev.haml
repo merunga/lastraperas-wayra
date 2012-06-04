@@ -42,15 +42,16 @@
 
       //// TIMELINE
       #timeline.centered.step{"data-x" => "1800", "data-y" => "-1200", "data-scale"=>"2"}
-        %iframe{"src"=>"timeline.html","width"=>"1000","height"=>"700"}
+        %iframe{"src"=>"timeline.html","width"=>"1000","height"=>"700",:style=>'margin-left: -50px'}
         %div.footnote.right
-          %a{:href=>"#analisis",:style=>"margin-right:-70px"}
-            continuar con la
-            %br
-            presentación
+          %a{:href=>"#analisis",:style=>"margin-right:0px; margin-top:-20px"}
+            continuar con la presentación
 
-      .deco{"data-x" => "3050", "data-y" => "-1520", "data-scale" => "0.6"}
-        &lt;= click para ver la historia
+      .deco.centered{"data-x" => "3050", "data-y" => "-1520", "data-scale" => "0.6"}
+        %strong{:style=>'font-size: 100pt'} &larr;
+        click para
+        %br
+        ver la historia
         
         
       //// ANALISIS
@@ -198,7 +199,7 @@
               %i sintonizar
               la publicidad a nuestras necesidades, para poder reducir el
               %i ruido
-
+            %br
             Nuestra herramienta busca ofrecer a los usuarios la publicidad como un servicio
 
           %img{"src"=>"http://inthepinesonfbi.files.wordpress.com/2011/03/lady-with-wireless-radio-vintage-rp-postcard_270700241964.jpg?w=500","style"=>"float:left;margin-top: -20px"}

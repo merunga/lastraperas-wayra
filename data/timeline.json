@@ -62,7 +62,7 @@
                 "text":"<ul><li><strong>duración:</strong> 15 días</li></ul><br/><p>Con la tienda sistematizada lanzamos nuestro tercer evento: 5000 asistentes!<br/>Contratamos a nuestro primer empleado.<br/> Superamos ventas anteriores.</p>",
                 "asset":
                 {
-                    "media":"http://vimeo.com/26171456",
+                    "media":"<iframe src='http://player.vimeo.com/video/26171456' width='500' height='375' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href='http://vimeo.com/26171456'>Las traperas</a> from <a href='http://vimeo.com/user7714444'>Las Traperas</a> on <a href='http://vimeo.com'>Vimeo</a>.</p>",
                     "credit":"",
                     "caption":""
                 }
